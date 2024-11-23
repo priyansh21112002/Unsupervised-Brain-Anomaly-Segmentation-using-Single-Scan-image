@@ -1,0 +1,12 @@
+Latent Space Clustering for Novelty Detection
+Concept: Use clustering in VAE’s latent space to identify novel patterns.
+Method: Apply K-means clustering to latent space; anomalies deviate from main clusters.
+Benefit: More robust detection through feature distribution analysis.
+
+Multiscale Feature Fusion
+Concept: Enhance VAE with multi-scale feature extraction.
+Method: Integrate convolutional layers with various kernel sizes in VAE encoder.
+Benefit: Greater sensitivity to varied anomaly types and sizes.
+
+Epoch testing for test images
+
